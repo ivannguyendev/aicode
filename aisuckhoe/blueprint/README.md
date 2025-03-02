@@ -1,9 +1,112 @@
+# Blueprint - Phát triển website aisuckhoe
+
+### Prompts:
+
+```md
+Dựng langdingpage cho website domain aisuckhoe.com
+ứng dụng về bệnh nhân hỏi AI, AI trả lời vấn đề sức khoè và gợi ý bác sĩ phù hợp
+nội dung: bác sĩ giỏi, nguồn uy tín, nhanh chóng, tiện lợi
+Trang sẽ ngắn gọn và tập trung hơn vào mục tiêu chính là giới thiệu sản phẩm và chuyển đổi người dùng.
+---
+Các tính năng chính:
+Header với logo và navigation menu
+Hero section với 3D animation của AI/Robot y tế
+---
+Các section giới thiệu tính năng chính: 
+Tư vấn AI thông minh
+Kết nối bác sĩ uy tín
+Tiện lợi & nhanh chóng
+FAQ section
+Footer với đầy đủ navigation
+2 nút CTA chính dẫn đến webapp và telegram
+Dark/Light mode toggle
+Responsive trên mọi thiết bị
+---
+Các hiệu ứng đặc biệt:
+Particle animation trong background
+3D model bác sĩ/robot AI xoay 360° trong hero section
+Floating animation cho các cards
+Smooth scroll animations
+Hover effects trên buttons và cards
+Loading skeleton cho dynamic content
+Micro-interactions trên các interactive elements
+---
+công nghệ sử dụng:
+Tailwind CSS cho styling
+Có thể dùng thêm thư viện khác
+---
+Cấu trúc:
+Layout tổng thể mới:
+Header (Fixed - Simplified)
+|-----------------------------------------------------------------------------|
+| Logo | Health Blog | Tech Blog | Roadmap | 🌙/☀️ | SignIn/SignUp |
+|-----------------------------------------------------------------------------|
+Hero Section
+|---------------------------|
+|   Text + CTA buttons     |
+|    ___________________   |
+|   |                   |  |
+|   |   3D Doctor/AI    |  |
+|   |   Animation       |  |
+|   |___________________| |
+|---------------------------|
+Features Section (Grid 3 columns)
+|-------|-------|-------|
+| AI    | Bác sĩ| Tiện  |
+| Thông | Uy    | lợi   |
+| minh  | tín   |       |
+|-------|-------|-------|
+How It Works (Timeline)
+Step 1 → Step 2 → Step 3
+FAQ Section (Accordion)
+|--------------------------|
+| Question 1              ˅|
+|--------------------------|
+| Question 2              ˅|
+|--------------------------|
+Available on (Hero Section)
+|---------------------------|
+|   Text + [Web App] Buttons   |
+|    ___________________   |
+|   |                   |  |
+|   |   Chat on Webapp  |  |
+|   |   Animation       |  |
+|   |___________________| |
+|---------------------------|
+
+|---------------------------|
+|    ___________________   |
+|   |                   |  |
+|   |  Chat on Telegram |  |
+|   |   Animation       |  |
+|   |___________________|  |
+|   Text + [Telegram] Buttons   |
+|---------------------------|
+CTA Section
+|--------------------------|
+|     Hỏi AI ngay!        |
+| [Web App] [Telegram]    |
+|--------------------------|
+Footer
+|--------------------------|
+| About | Contact | Terms  |
+| Social| Privacy | Others |
+|--------------------------|
+
+
+Cho tôi xem phác thảo trước khi bắt đầu.
+```
+
+
+
+### AI Responses:
+```html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>(sketch) AI Sức Khỏe - Tư vấn y tế thông minh</title>
+  <title>(blueprint) AI Sức Khỏe - Tư vấn y tế thông minh</title>
   <style>
     :root {
       --primary: #3b82f6;
@@ -635,3 +738,4 @@
   </script>
 </body>
 </html>
+```
