@@ -7,15 +7,15 @@ Dự án này là minh chứng cho việc một lập trình viên không giỏi
 
 ## Hành trình phát triển với sự hỗ trợ của AI
 
-### 1. Giai đoạn Blueprint [/blueprint/README](./blueprint/README)
+### 1. Giai đoạn Blueprint [/blueprint/README](./blueprint/README.md)
 - **Mô tả**: Đây là giai đoạn khởi đầu khi ý tưởng về **aisuckhoe** được hình thành. ChatGPT đã hỗ trợ phác thảo cấu trúc website, từ danh sách các trang cần thiết đến tính năng cụ thể. Sau đó, ý tưởng được chỉnh sửa nhiều lần dựa trên phản hồi từ ChatGPT để hoàn thiện bản kế hoạch chi tiết.
 - **Vai trò của AI**: ChatGPT đóng vai trò như một "người cố vấn", giúp brainstorm và tổ chức ý tưởng một cách logic.
 
-### 2. Giai đoạn Global CSS [/globalcss/README](./globalcss/README)
+### 2. Giai đoạn Global CSS [/globalcss/README](./globalcss/README.md)
 - **Mô tả**: Sau khi có logo, **Grok** được sử dụng để phân tích và tạo ra một bảng màu (color schema) dựa trên logo. Primary color và secondary color được chọn làm nền tảng cho toàn bộ giao diện, đảm bảo tính nhất quán về mặt thị giác.
 - **Vai trò của AI**: Grok giúp tiết kiệm thời gian trong việc chọn màu sắc phù hợp mà không cần kiến thức sâu về thiết kế.
 
-### 3. Giai đoạn Step-by-Step [/step-by-step/README](./step-by-step/README)
+### 3. Giai đoạn Step-by-Step [/step-by-step/README](./step-by-step/README.md)
 - **Mô tả**: Khi đã chọn được một bộ template và phong cách thiết kế ưng ý, website được chia thành các phần nhỏ (sections). ChatGPT hỗ trợ viết mã từng section theo yêu cầu cụ thể, từ đó ghép lại thành một giao diện hoàn chỉnh.
 - **Vai trò của AI**: ChatGPT đóng vai trò như một "trợ lý lập trình", cung cấp đoạn mã mẫu và điều chỉnh theo ý muốn.
 
